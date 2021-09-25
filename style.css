@@ -13,13 +13,19 @@ off black - #0D0D0D
 */
 
 html {
-  font-family: "Lato", sans-serif;
-  color: #f2a2ed;
   background-image: linear-gradient(#0d0d0d, #260120);
   height: 100%;
   margin: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.text {
+  font-family: "Work Sans", sans-serif;
+  font-size: 6em;
+  text-transform: uppercase;
+  color: #f2a2ed;
+  text-shadow: 7px 7px #260120, -7px -7px #f2c9f0;
 }
 
 .centered {
