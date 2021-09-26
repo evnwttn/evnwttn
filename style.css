@@ -23,7 +23,7 @@ html {
 
 .titleText {
   font-family: "Work Sans", sans-serif;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   font-size: 3.5em;
   text-transform: uppercase;
   color: #f2a2ed;
@@ -33,6 +33,17 @@ html {
   display: flex;
   justify-content: flex-end;
   margin-right: 1em;
+}
+
+#headerIcons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 13em;
+}
+
+.icon {
+  width: 35px;
+  height: auto;
 }
 
 .bigText {
