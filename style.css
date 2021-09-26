@@ -13,14 +13,29 @@ off black - #0D0D0D
 */
 
 html {
-  background-image: linear-gradient(#0d0d0d, #260120);
+  /* background-image: linear-gradient(#0d0d0d, #260120); */
+  background-color: #0d0d0d;
   height: 100%;
   margin: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.text {
+.titleText {
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: 0.04em;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  color: #f2a2ed;
+}
+
+#header {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1em;
+}
+
+.bigText {
   font-family: "Work Sans", sans-serif;
   font-size: 6em;
   text-transform: uppercase;
