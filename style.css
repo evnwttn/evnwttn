@@ -71,8 +71,17 @@ html {
 
 #bar {
   position: absolute;
+  border-radius: 50px;
   left: 50%;
-  width: 50px;
-  height: 100px;
-  background-color: white;
+  width: 5px;
+  height: 97px;
+  background-color: #f2a2ed;
+}
+
+.gdt {
+  background-image: linear-gradient(transparent, #0d0d0d);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  z-index: 2400;
 }

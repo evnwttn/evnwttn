@@ -8,6 +8,8 @@ const container = document.querySelector("#yo");
 
 let animation = anime({
   targets: "#bar",
-  translateY: 250,
-  easing: "easeInOutExpo",
+  height: "0%",
+  easing: "easeInOutQuad",
+  direction: "reverse",
+  duration: 2250,
 });
