@@ -5,3 +5,9 @@ const container = document.querySelector("#yo");
 //   open.classList.add("invisible");
 //   container.classList.remove("invisible");
 // });
+
+let animation = anime({
+  targets: "#bar",
+  translateY: 250,
+  easing: "easeInOutExpo",
+});

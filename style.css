@@ -21,10 +21,14 @@ html {
   background-attachment: fixed;
 }
 
+#container {
+  padding: 1em;
+}
+
 .titleText {
   font-family: "Work Sans", sans-serif;
   letter-spacing: 0.05em;
-  font-size: 3.5em;
+  font-size: 3.7em;
   text-transform: uppercase;
   color: #f2a2ed;
 }
@@ -38,7 +42,7 @@ html {
 #headerIcons {
   display: flex;
   justify-content: flex-end;
-  margin-right: 13em;
+  margin-right: 2em;
 }
 
 .icon {
@@ -63,4 +67,12 @@ html {
 
 .invisible {
   visibility: hidden;
+}
+
+#bar {
+  position: absolute;
+  left: 50%;
+  width: 50px;
+  height: 100px;
+  background-color: white;
 }
