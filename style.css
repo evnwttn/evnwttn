@@ -1,7 +1,5 @@
 /* palette
 
-RICH
-
 pale - #F2C2EF
 muted pale - #F2C9F0
 neon - #F2A2ED
@@ -26,19 +24,20 @@ html {
 
 .titleText {
   font-family: "Work Sans", sans-serif;
+  font-weight: 900;
+  font-style: italic;
   letter-spacing: 0.05em;
   font-size: 3.7em;
   text-transform: uppercase;
   color: #f2a2ed;
 }
 
-.bigText {
+/* .bigText {
   font-family: "Work Sans", sans-serif;
   font-size: 6em;
   text-transform: uppercase;
   color: #f2a2ed;
-  text-shadow: 7px 7px #260120, -7px -7px #f2c9f0;
-}
+  text-shadow: 7px 7px #260120, -7px -7px #f2c9f0; */
 
 .boxText {
   font-family: "Work Sans", sans-serif;
@@ -52,15 +51,23 @@ html {
   margin-right: 1em;
 }
 
-#headerIcons {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 2em;
+a {
+  font-family: "Work Sans", sans-serif;
+  color: #f2a2ed;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
 }
 
-.icon {
-  width: 35px;
-  height: auto;
+#subTitle {
+  display: flex;
+  display: block;
+  text-align: right;
+  float: right;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-right: 2em;
 }
 
 .centered {
@@ -92,19 +99,20 @@ html {
 
 .lbox {
   display: flex;
-  margin-left: 6em;
+  margin-left: 8em;
   margin-bottom: 6em;
-  width: 420px;
-  height: 210px;
+  width: 590px;
+  height: 300px;
   transform: skew(-6deg);
   background-color: #f2a2ed;
 }
 
-#bar {
+/* #bar {
   position: absolute;
   border-radius: 50px;
   left: 50%;
   width: 5px;
   height: 97px;
   background-color: #f2a2ed;
-}
+  z-index: 0;
+} */
