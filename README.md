@@ -1,3 +1,3 @@
 :cactus: 
 
-💻 student @ <a href="https://www.get-coding.ca/">get coding</a>
+student @ <a href="https://www.get-coding.ca/">get coding</a>
