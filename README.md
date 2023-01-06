@@ -1,3 +1,6 @@
 :hocho: 
+<br /><br />
+st. john's based dev
+<br />former chef
 
-student @ <a href="https://www.get-coding.ca/">get coding</a>
+alum @ <a href="https://www.get-coding.ca/">get coding</a>
