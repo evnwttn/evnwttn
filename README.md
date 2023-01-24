@@ -1,6 +1,7 @@
 :hocho: 
 <br /><br />
-st. john's based dev
+st. john's based
 <br />former chef
 
-alum @ <a href="https://www.get-coding.ca/">get coding</a>
+dev @ <a href="https://abbatekgroup.com/">abbatek group</a>
+<br />alum @ <a href="https://www.get-coding.ca/">get coding</a>
